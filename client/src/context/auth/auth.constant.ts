@@ -1,0 +1,2 @@
+export const SET_IS_AUTHENTICATED = 'SET_IS_AUTHENTICATED';
+export const SET_FULL_NAME = 'SET_FULL_NAME';
