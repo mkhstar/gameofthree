@@ -36,6 +36,11 @@ players should optionally be adjustable by a user.
 
 ![Game of Three Software Architecture](gameofthree-architecture.png "Game of Three Software Architecture")
 
+
+## Game Play Preview
+![](gameofthree-live-play.mov)
+
+
 ## Server Side Programming
 
 The main objective for the server is to setup a real-time environment that clients can use to communicate with each other.
