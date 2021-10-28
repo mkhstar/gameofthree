@@ -38,7 +38,9 @@ players should optionally be adjustable by a user.
 
 
 ## Game Play Preview
-![](gameofthree-live-play.mov)
+
+https://user-images.githubusercontent.com/26695391/139172306-76845e86-75ee-4892-aace-a0c3acd87229.mov
+
 
 
 ## Server Side Programming
