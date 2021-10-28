@@ -9,7 +9,7 @@ import {
 } from '@nestjs/websockets';
 import { nanoid } from 'nanoid';
 import { Socket, Server } from 'socket.io';
-import { SocketUserService } from 'src/socket-user/socket-user.service';
+import { SocketUserService } from '../../socket-user/socket-user.service';
 import { GameFlow } from '../dto/game-flow.dto';
 import { GameSetup } from '../dto/game-setup.dto';
 import { GameGuard } from '../guards/game.guard';

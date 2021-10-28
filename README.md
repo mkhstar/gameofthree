@@ -1,8 +1,7 @@
 # gameofthree
 
-
-## Author
-- Kusi Musah Hussein
+## Demo
+[Click Here](https://gameofthree-demo.herokuapp.com/game) to access the demo.
 ## Description
 
 The goal of this project is to implement a game with two independent units – the players –
@@ -33,6 +32,9 @@ players should optionally be adjustable by a user.
 - UI with a fancy easily configurable layout
 - Architecutre diagram
 
+## Software Architecture
+
+![Game of Three Software Architecture](gameofthree-architecture.png "Game of Three Software Architecture")
 
 ## Server Side Programming
 
@@ -55,6 +57,13 @@ The main objective for the server is to setup a real-time environment that clien
 - Socket IO
     
     Socket provides the bidirectional and low-latency communication feature of this application. It makes it easier to communicate with clients in real time.
+
+### Tests
+
+```bash
+$ yarn test
+
+```
 
 ### Server Side Setup
 
@@ -110,6 +119,12 @@ The main objective for the client side program is to provide a simple user inter
 
 ```bash
 $ cd client && yarn
+```
+
+#### Environment Setup
+
+```bash
+$ cp .env.example .env #copy env.example file and set up the domain to the server
 ```
 
 #### Running the app
